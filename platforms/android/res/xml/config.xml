@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.riba0007.giftr" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>GiftR</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="riba0007@algonquinlive.com" href="http://riba0007@edumedia.ca">
+        Priscila Ribas da Costa
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="mdpi" src="res/android/icon/MDPI.png" />
+    <icon density="hdpi" src="res/android/icon/HDPI.png" />
+    <icon density="xhdpi" src="res/android/icon/XHDPI.png" />
+    <icon density="xxhdpi" src="res/android/icon/XXHDPI.png" />
+    <icon density="xxxhdpi" src="res/android/icon/XXXHDPI.png" />
+    <splash density="land-mdpi" src="res/android/splashscreen/L_MDPI.png" />
+    <splash density="land-hdpi" src="res/android/splashscreen/L_HDPI.png" />
+    <splash density="land-xhdpi" src="res/android/splashscreen/L_XHDPI.png" />
+    <splash density="land-xxhdpi" src="res/android/splashscreen/L_XXHDPI.png" />
+    <splash density="land-xxxhdpi" src="res/android/splashscreen/L_XXXHDPI.png" />
+    <splash density="port-mdpi" src="res/android/splashscreen/P_MDPI.png" />
+    <splash density="port-hdpi" src="res/android/splashscreen/P_HDPI.png" />
+    <splash density="port-xhdpi" src="res/android/splashscreen/P_XHDPI.png" />
+    <splash density="port-xxhdpi" src="res/android/splashscreen/P_XXHDPI.png" />
+    <splash density="port-xxxhdpi" src="res/android/splashscreen/P_XXXHDPI.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+</widget>

@@ -1,0 +1,46 @@
+body {
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+.bar {
+    background-color: #8c3060;
+}
+
+.bar a,
+.bar .btn-link {
+    color: #fff3f9;
+}
+
+.title {
+    color: #fff;
+}
+
+a {
+    color: #8c3060;
+}
+
+.btn-primary {
+    background-color: #8c3060;
+    border: 1px solid #8c3060;
+}
+
+.dob {
+    color: #999;
+}
+
+.msg {
+    padding: 4px;
+    text-align: center;
+    margin: 2px 0;
+    background-color: #fdf1f1;
+    color: #9c1010;
+    opacity: 0;
+    transition: opacity 0.5s ease-in; 
+}
+
+.load {
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
